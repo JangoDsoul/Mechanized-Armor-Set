@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+ 
+  <ResearchProjectDef>
+    <defName>SteamPrototypes</defName>
+    <label>Steam Prototypes</label>
+    <description>Tailor complicated garments like pants, dusters, and cowboy hats.</description>
+    <baseCost>1000</baseCost>
+    <techLevel>Medieval</techLevel>
+    <prerequisites>
+      <li>Smithing</li>
+    </prerequisites>	
+    <researchViewX>4.00</researchViewX>
+    <researchViewY>4.10</researchViewY>
+
+
+  </ResearchProjectDef>
+
+</Defs>

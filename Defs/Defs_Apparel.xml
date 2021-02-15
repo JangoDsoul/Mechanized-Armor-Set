@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+		<!-- Mechanized Helme -->
+
+  <ThingDef ParentName="ArmorHelmetMakeableBase">
+		<defName>Mechanized_Helm_Apparel</defName>
+		<label>Mechanized Helm</label>
+		<description>"The mechanized helmet much like its body armor counterpart is also extremely experimental and costly. However along with it's heavy protection it does offer some luxuries for its tech level such as a moderate degree of air filtration giving some protection from toxic gases and fallout. The overall complexity of this helm makes it cost an extra premium to make"</description>
+		<techLevel>Industrial</techLevel>
+		<tradeability>Sellable</tradeability>
+		<generateCommonality>0</generateCommonality>
+		<generateAllowChance>0</generateAllowChance>		
+	<graphicData>
+      <texPath>Things/Apparel/Mechanized_Helm_UI</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+		<WorkToMake>4000</WorkToMake>
+		<MaxHitPoints>140</MaxHitPoints>
+		<Mass>3.80</Mass>
+		<ArmorRating_Sharp>0.90</ArmorRating_Sharp>
+		<ArmorRating_Blunt>0.45</ArmorRating_Blunt>
+		<ArmorRating_Heat>40</ArmorRating_Heat>
+		<Insulation_Cold>7</Insulation_Cold>
+		<Insulation_Heat>3</Insulation_Heat>
+		<EquipDelay>2</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+		<ToxicSensitivity>-0.45</ToxicSensitivity>	
+	</equippedStatOffsets>
+    <costList>
+		<Steel>15</Steel>
+		<Gold>6</Gold>	
+		<Cloth>3</Cloth>
+		<ComponentSpacer>1</ComponentSpacer>
+    </costList>
+    <recipeMaker>
+		<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+		<researchPrerequisite>SteamPrototypes</researchPrerequisite>
+		<skillRequirements>
+			<Crafting>7</Crafting>
+		</skillRequirements>
+		<recipeUsers Inherit="False">
+			<li>FueledSmithy</li>
+			<li>ElectricSmithy</li>			
+        </recipeUsers>
+    </recipeMaker>
+    <apparel>
+		<bodyPartGroups>
+			<li>FullHead</li>
+		</bodyPartGroups>
+		<wornGraphicPath>Things/Apparel/Mechanized_Helm</wornGraphicPath>
+		<layers>
+			<li>Overhead</li>
+		</layers>
+		<tags>
+			<li>Mechanized</li>
+		</tags>
+		<defaultOutfitTags>
+			<li>Soldier</li>
+		</defaultOutfitTags>
+		<useDeflectMetalEffect>true</useDeflectMetalEffect>
+    </apparel>
+	<thingCategories Inherit="False">
+		<li>Headgear</li>
+	</thingCategories>
+  </ThingDef>
+
+		<!-- Mechanized Plate Apparel -->
+
+  <ThingDef ParentName="ApparelMakeableBase">
+		<defName>Mechanized_Plate_Apparel</defName>
+		<label>Mechanized Plate Armor</label>
+		<description>"History often repeats itself, throughout the periphery on countless Rimworlds many tribes are beginning their technological progress anew; though sometimes aided by advanced knowledge once long forgotten. And during these repeated cycles past discoveries and inventions are always stumbled upon, gunpowder, steam and combustion power and flight; all part of a convergent evolution. In cases such as these some tribes take their pre-existing advanced knowledge and apply it to the primitive technology of their tribe. The mechanized plate is born from this combination, an attempt at recreating a suit of power armor, using analog methods, compact steam engines, servos and clockworks. The end result works, albeit a lot slower and less efficient then its Urbtech and Glitterworld. But it offers great protection for its tech level, however it comes at a higher cost for being so experimental and ambitious."</description>
+		<techLevel>Industrial</techLevel>
+		<tradeability>Sellable</tradeability>
+		<generateCommonality>0</generateCommonality>
+		<generateAllowChance>0</generateAllowChance>
+	<graphicData>
+      <texPath>Things/Apparel/Mechanized_Plate_UI</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+		<WorkToMake>10000</WorkToMake>
+		<MaxHitPoints>280</MaxHitPoints>
+		<Mass>11</Mass>
+		<ArmorRating_Sharp>0.90</ArmorRating_Sharp>
+		<ArmorRating_Blunt>0.45</ArmorRating_Blunt>
+		<ArmorRating_Heat>0.45</ArmorRating_Heat>
+		<Insulation_Cold>55</Insulation_Cold>
+		<Insulation_Heat>16</Insulation_Heat>
+		<EquipDelay>3</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+		<PainShockThreshold>0.15</PainShockThreshold>
+		<MoveSpeed>-0.30</MoveSpeed>		
+	</equippedStatOffsets>
+    <costList>
+		<Steel>35</Steel>
+		<Gold>15</Gold>
+		<Cloth>30</Cloth>
+		<ComponentIndustrial>3</ComponentIndustrial>
+    </costList>
+    <recipeMaker>
+		<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+		<researchPrerequisite>SteamPrototypes</researchPrerequisite>
+		<skillRequirements>
+			<Crafting>7</Crafting>
+		</skillRequirements>
+		<recipeUsers Inherit="False">
+			<li>FueledSmithy</li>
+			<li>ElectricSmithy</li>		
+        </recipeUsers>
+    </recipeMaker>
+    <apparel>
+		<bodyPartGroups>
+			<li>Neck</li>
+			<li>Torso</li>
+			<li>Shoulders</li>
+			<li>Waist</li>
+			<li>Arms</li>
+			<li>Legs</li>
+		</bodyPartGroups>
+		<wornGraphicPath>Things/Apparel/Mechanized_Plate</wornGraphicPath>
+		<layers>
+			<li>Middle</li>
+			<li>Shell</li>
+		</layers>
+		<tags>
+			<li>Mechanized</li>
+		</tags>
+		<defaultOutfitTags>
+			<li>Soldier</li>
+		</defaultOutfitTags>
+		<useDeflectMetalEffect>true</useDeflectMetalEffect>
+	</apparel>
+	<thingCategories Inherit="False">
+		<li>Apparel</li>
+	</thingCategories>
+  </ThingDef>
+
+ <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>Mechanized_Musket</defName>
+    <label>Mechanized Musket</label>
+    <description>"This firearm utilizes a wheelock ignition system along with premade powder cartridges and a revolving magazine. This results in a higher rate of fire compared to other muskets, allowing for a decent amount of volley fire using fewer soldiers. Perfect for a squad of infantry equipped with mechanized plate. However the process of reloading the multiple chambers with the cartridges does take a little longer than that of the average musket. The overall complexity of this musket also makes it cost an extra premium to make"</description>
+    <graphicData>
+      <texPath>Things/Apparel/Mechanized_Rifle</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>1.3</drawSize> 
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <recipeMaker>
+      <researchPrerequisite>SteamPrototypes</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+		<recipeUsers Inherit="False">
+			<li>FueledSmithy</li>
+			<li>ElectricSmithy</li>		
+        </recipeUsers>	  
+    </recipeMaker>
+    <statBases>
+      <WorkToMake>40000</WorkToMake>
+	  <MaxHitPoints>280</MaxHitPoints>
+      <Mass>2.0</Mass>
+      <AccuracyTouch>0.65</AccuracyTouch>
+      <AccuracyShort>0.80</AccuracyShort>
+      <AccuracyMedium>0.60</AccuracyMedium>
+      <AccuracyLong>0.45</AccuracyLong>
+      <RangedWeapon_Cooldown>5.20</RangedWeapon_Cooldown>
+	  <MeleeArmorPenetration>0.25</MeleeArmorPenetration>	  
+    </statBases>
+    <costList>
+      <Steel>20</Steel>
+	  <Gold>5</Gold>
+      <ComponentIndustrial>1</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_Mechanized</defaultProjectile>
+        <warmupTime>1.7</warmupTime>
+        <range>26</range>
+        <burstShotCount>4</burstShotCount>
+        <ticksBetweenBurstShots>50</ticksBetweenBurstShots>
+        <soundCast>Shot_AssaultRifle</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>4</muzzleFlashScale>
+      </li>
+    </verbs>
+    <weaponTags>
+      <li>Mechanized</li>
+    </weaponTags>
+    <tools>
+      <li>
+        <label>Stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>2.0</cooldownTime>
+      </li>
+      <li>
+        <label>Barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2.0</cooldownTime>
+      </li>
+      <li>
+        <label>Bayonet</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>23</power>
+        <cooldownTime>2.6</cooldownTime>
+      </li>	  
+    </tools>
+	<comps>
+      <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
+      </li>
+    </comps>	
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_Mechanized</defName>
+    <label>Mechanized bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>18</damageAmountBase>
+      <speed>48</speed>
+    </projectile>
+  </ThingDef>
+
+</Defs>

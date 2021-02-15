@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+	<ModMetaData>
+		<name>Mechanized Armor Set</name>
+		<author>JangoD'soul</author> <!-- \\\ Change to your username for Steam \\\ -->
+		<supportedVersions>
+			<li>1.2</li> 	<!-- \\\ your can add more line when the new version for the game\\\ -->		
+		</supportedVersions>
+		<packageId>JangoDsoul.Mechanized</packageId>	<!-- \\\ Can change to anything \\\ -->
+		<description>
+This mod adds Mechanized Armor Set
+
+[h1]Features:[/h1]
+ - Mechanized Helm
+ - Mechanized Plate Armor
+ - Mechanized_Musket
+ 
+[h1]ResearchPrerequisite:[/h1]
+ - SteamPrototypes: Mechanized Helm,Plate Armor, Musket  
+ 
+collaboration project with "Pizzacat#2242" and "JangoDsoul" from "Rimworld Mod Market" Discord.
+
+[h1]Credits:[/h1]
+-JangoDsoul- Art and XML coder
+
+[url=https://discord.gg/7B7xqHh][img]https://i.imgur.com/cfoFEMA.png[/img][/url]
+		</description>
+	</ModMetaData>
