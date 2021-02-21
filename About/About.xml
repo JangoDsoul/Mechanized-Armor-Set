@@ -17,10 +17,18 @@ This mod adds Mechanized Armor Set
 [h1]ResearchPrerequisite:[/h1]
  - SteamPrototypes: Mechanized Helm,Plate Armor, Musket  
  
-collaboration project with "Pizzacat#2242" and "JangoDsoul" from "Rimworld Mod Market" Discord.
+collaboration project with "-/]rchon" and "JangoDsoul" from "Rimworld Mod Market" Discord.
+
+ "This mod comes with the ability to choose which era the research and item set appear in, with the choice of Medieval or Industrial through the mod settings manager "
+
+[h1]Disclaimer/Warning:[/h1]
+"To avoid any bugs and issues please choose the tech era you desire through the mod settings manager BEFORE generating a new world"
+
 
 [h1]Credits:[/h1]
--JangoDsoul- Art and XML coder
+-/]rchon- Main Artist for the Apparel
+-JangoDsoul- Artist retexture in Vector and XML coder
+-CaptainMuscles - C# coder "Pizzacat_MechanizedArmor.dll"
 
 [url=https://discord.gg/7B7xqHh][img]https://i.imgur.com/cfoFEMA.png[/img][/url]
 		</description>
