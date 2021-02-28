@@ -33,7 +33,7 @@
 		<Steel>15</Steel>
 		<Gold>6</Gold>	
 		<Cloth>3</Cloth>
-		<ComponentSpacer>1</ComponentSpacer>
+		<ComponentIndustrial>1</ComponentIndustrial>
     </costList>
     <recipeMaker>
 		<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
