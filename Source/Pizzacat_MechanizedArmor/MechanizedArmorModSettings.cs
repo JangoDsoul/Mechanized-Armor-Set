@@ -23,9 +23,9 @@ namespace Pizzacat_MechanizedArmor
             listing_Standard.Begin(inRect);
 
             listing_Standard.Label("Pizzacat_MechanizedArmor_Tech_Level_Label".Translate());
-            if (listing_Standard.RadioButton_NewTemp("Pizzacat_MechanizedArmor_Tech_Level_Medieval_Label".Translate(), techLevel == TechLevel.Medieval, 8f))
+            if (listing_Standard.RadioButton("Pizzacat_MechanizedArmor_Tech_Level_Medieval_Label".Translate(), techLevel == TechLevel.Medieval, 8f))
                 techLevel = TechLevel.Medieval;
-            if (listing_Standard.RadioButton_NewTemp("Pizzacat_MechanizedArmor_Tech_Level_Industrial_Label".Translate(), techLevel == TechLevel.Industrial, 8f))
+            if (listing_Standard.RadioButton("Pizzacat_MechanizedArmor_Tech_Level_Industrial_Label".Translate(), techLevel == TechLevel.Industrial, 8f))
                 techLevel = TechLevel.Industrial;
 
             listing_Standard.End();
